@@ -1,0 +1,18 @@
+
+
+------------------------------------------------------
+Global Average and Variance
+------------------------------------------------------
+
+
+TEST RESULTS
+
+Dataset,PUBLIC-C.fifa_final,PUBLIC-C.fifa_final,PUBLIC-C.fifa_final
+,Average (Correctly Classified),Variance (Correctly Classified),Not Classified
+fifa_final ,0.8571371706,0.0010636672,0.0000000000
+
+TRAIN RESULTS
+
+Dataset,PUBLIC-C.fifa_final,PUBLIC-C.fifa_final,PUBLIC-C.fifa_final
+,Average (Correctly Classified),Variance (Correctly Classified),Not Classified
+fifa_final ,0.9033573140,0.0000637400,0.0000000000

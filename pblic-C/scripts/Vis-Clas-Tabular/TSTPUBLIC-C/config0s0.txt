@@ -1,0 +1,19 @@
+algorithm = Table with summary of the algorithm, Classification probs.
+inputData = "../results/PUBLIC-C.fifa_final/result0.tst" "../results/PUBLIC-C.fifa_final/result1.tst" "../results/PUBLIC-C.fifa_final/result2.tst" "../results/PUBLIC-C.fifa_final/result3.tst" "../results/PUBLIC-C.fifa_final/result4.tst" "../results/PUBLIC-C.fifa_final/result5.tst" "../results/PUBLIC-C.fifa_final/result6.tst" "../results/PUBLIC-C.fifa_final/result7.tst" "../results/PUBLIC-C.fifa_final/result8.tst" "../results/PUBLIC-C.fifa_final/result9.tst" "../results/PUBLIC-C.fifa_final/result0.tra" "../results/PUBLIC-C.fifa_final/result1.tra" "../results/PUBLIC-C.fifa_final/result2.tra" "../results/PUBLIC-C.fifa_final/result3.tra" "../results/PUBLIC-C.fifa_final/result4.tra" "../results/PUBLIC-C.fifa_final/result5.tra" "../results/PUBLIC-C.fifa_final/result6.tra" "../results/PUBLIC-C.fifa_final/result7.tra" "../results/PUBLIC-C.fifa_final/result8.tra" "../results/PUBLIC-C.fifa_final/result9.tra" 
+outputDataTabular = "../results/Vis-Clas-Tabular/TSTPUBLIC-C/fifa_final_ByFoldByClassifier_s0.stat" "../results/Vis-Clas-Tabular/TSTPUBLIC-C/fifa_final_ByFoldByClassifierByClass_s0.stat" "../results/Vis-Clas-Tabular/TSTPUBLIC-C/Summary_Test_s0.stat" "../results/Vis-Clas-Tabular/TSTPUBLIC-C/Summary_Train_s0.stat" "../results/Vis-Clas-Tabular/TSTPUBLIC-C/fifa_final_PUBLIC-C_ConfussionMatrix_s0.stat" 
+
+seed = 390706926
+subAlgorithm = StatTabularCL
+dataformat = keel
+outlabel = CHK
+1-Classification rate by algorithm and fold = YES
+1-Header size in previous table = 2
+1-Data used in previous table = TEST-TRAIN
+2-Classification rate by algorithm, fold and class = YES
+2-Header size in previous table = 2
+2-Data used in previous table = TEST-TRAIN
+3-Global Average and Variance = YES
+3-Header size in previous table = 2
+3-Data used in previous table = TEST-TRAIN
+4-Confussion Matrix = YES
+4-Data used in previous table = TEST-TRAIN

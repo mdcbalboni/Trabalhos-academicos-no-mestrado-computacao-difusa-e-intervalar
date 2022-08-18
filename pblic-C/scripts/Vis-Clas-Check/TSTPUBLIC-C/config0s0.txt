@@ -1,0 +1,8 @@
+algorithm = Summary of the algorithm, Classification probs.
+inputData = "../results/PUBLIC-C.fifa_final/result0.tst" "../results/PUBLIC-C.fifa_final/result1.tst" "../results/PUBLIC-C.fifa_final/result2.tst" "../results/PUBLIC-C.fifa_final/result3.tst" "../results/PUBLIC-C.fifa_final/result4.tst" "../results/PUBLIC-C.fifa_final/result5.tst" "../results/PUBLIC-C.fifa_final/result6.tst" "../results/PUBLIC-C.fifa_final/result7.tst" "../results/PUBLIC-C.fifa_final/result8.tst" "../results/PUBLIC-C.fifa_final/result9.tst" "../results/PUBLIC-C.fifa_final/result0.tra" "../results/PUBLIC-C.fifa_final/result1.tra" "../results/PUBLIC-C.fifa_final/result2.tra" "../results/PUBLIC-C.fifa_final/result3.tra" "../results/PUBLIC-C.fifa_final/result4.tra" "../results/PUBLIC-C.fifa_final/result5.tra" "../results/PUBLIC-C.fifa_final/result6.tra" "../results/PUBLIC-C.fifa_final/result7.tra" "../results/PUBLIC-C.fifa_final/result8.tra" "../results/PUBLIC-C.fifa_final/result9.tra" 
+outputData = "../results/Vis-Clas-Check/TSTPUBLIC-C/result0s0.stat" 
+
+seed = 1286082570
+subAlgorithm = StatCheckCL
+dataformat = keel
+outlabel = CHK

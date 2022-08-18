@@ -1,0 +1,17 @@
+------------------------------------------------------
+P-Value Matrix
+Dataset used: result9.tra
+------------------------------------------------------
+
+---- Confidence level=0.99 ----
+,PUBLIC-C.fifa_final
+PUBLIC-C.fifa_final,0.0000
+
+---- Confidence level=0.95 ----
+,PUBLIC-C.fifa_final
+PUBLIC-C.fifa_final,0.0000
+
+---- Confidence level=0.9 ----
+,PUBLIC-C.fifa_final
+PUBLIC-C.fifa_final,0.0000
+

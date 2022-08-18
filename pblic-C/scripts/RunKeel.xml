@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<execution>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/PUBLIC.jar</executableFile>
+    <scriptFile>./PUBLIC-C/fifa_final/config0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/PUBLIC.jar</executableFile>
+    <scriptFile>./PUBLIC-C/fifa_final/config1.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/PUBLIC.jar</executableFile>
+    <scriptFile>./PUBLIC-C/fifa_final/config2.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/PUBLIC.jar</executableFile>
+    <scriptFile>./PUBLIC-C/fifa_final/config3.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/PUBLIC.jar</executableFile>
+    <scriptFile>./PUBLIC-C/fifa_final/config4.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/PUBLIC.jar</executableFile>
+    <scriptFile>./PUBLIC-C/fifa_final/config5.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/PUBLIC.jar</executableFile>
+    <scriptFile>./PUBLIC-C/fifa_final/config6.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/PUBLIC.jar</executableFile>
+    <scriptFile>./PUBLIC-C/fifa_final/config7.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/PUBLIC.jar</executableFile>
+    <scriptFile>./PUBLIC-C/fifa_final/config8.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/PUBLIC.jar</executableFile>
+    <scriptFile>./PUBLIC-C/fifa_final/config9.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/ClasifTest_Summary.jar</executableFile>
+    <scriptFile>./Vis-Clas-Check/TSTPUBLIC-C/config0s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/ClasifTest_General.jar</executableFile>
+    <scriptFile>./Vis-Clas-General/TSTPUBLIC-C/config0s0.txt</scriptFile>
+  </sentence>
+  <sentence>
+    <command>java</command>
+    <option>-Xmx512000000</option>
+    <option />
+    <option>-jar</option>
+    <option />
+    <option />
+    <executableFile>../exe/ClasifTest_Tabular.jar</executableFile>
+    <scriptFile>./Vis-Clas-Tabular/TSTPUBLIC-C/config0s0.txt</scriptFile>
+  </sentence>
+</execution>
+

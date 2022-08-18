@@ -1,0 +1,6 @@
+algorithm = PUBLIC
+inputData = "../datasets/fifa_final/fifa_final-10-1tra.dat" "../datasets/fifa_final/fifa_final-10-1tra.dat" "../datasets/fifa_final/fifa_final-10-1tst.dat" 
+outputData = "../results/PUBLIC-C.fifa_final/result0.tra" "../results/PUBLIC-C.fifa_final/result0.tst" "../results/PUBLIC-C.fifa_final/result0e0.txt"  
+
+nodesBetweenPrune = 25
+estimateToPrune = PUBLIC(1)

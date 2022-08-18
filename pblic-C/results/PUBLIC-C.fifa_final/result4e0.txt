@@ -1,0 +1,308 @@
+@relation  fifa_final
+@attribute Age integer[17,37]
+@attribute Overall integer[71,94]
+@attribute Potential integer[73,95]
+@attribute Special integer[1043,2346]
+@attribute InternationalReputation real[1.0,5.0]
+@attribute WeakFoot real[1.0,5.0]
+@attribute SkillMoves real[1.0,5.0]
+@attribute ContractValidUntil real[2018.0,2026.0]
+@attribute Crossing real[9.0,93.0]
+@attribute Finishing real[5.0,95.0]
+@attribute HeadingAccuracy real[8.0,93.0]
+@attribute ShortPassing real[13.0,93.0]
+@attribute Volleys real[5.0,90.0]
+@attribute Dribbling real[8.0,97.0]
+@attribute Curve real[9.0,94.0]
+@attribute FKAccuracy real[7.0,94.0]
+@attribute LongPassing real[12.0,93.0]
+@attribute BallControl real[11.0,96.0]
+@attribute Acceleration real[29.0,97.0]
+@attribute SprintSpeed real[26.0,96.0]
+@attribute Agility real[21.0,96.0]
+@attribute Reactions real[51.0,96.0]
+@attribute Balance real[22.0,96.0]
+@attribute ShotPower real[12.0,95.0]
+@attribute Jumping real[30.0,95.0]
+@attribute Stamina real[20.0,96.0]
+@attribute Strength real[27.0,95.0]
+@attribute LongShots real[6.0,94.0]
+@attribute Aggression real[11.0,94.0]
+@attribute Interceptions real[7.0,92.0]
+@attribute Positioning real[4.0,95.0]
+@attribute Vision real[11.0,94.0]
+@attribute Penalties real[10.0,92.0]
+@attribute Composure real[25.0,96.0]
+@attribute Marking real[9.0,94.0]
+@attribute StandingTackle real[7.0,92.0]
+@attribute SlidingTackle real[8.0,91.0]
+@attribute GKDiving real[1.0,90.0]
+@attribute GKHandling real[1.0,92.0]
+@attribute GKKicking real[1.0,91.0]
+@attribute GKPositioning real[1.0,88.0]
+@attribute GKReflexes real[1.0,94.0]
+@attribute Value {Menor_que_5700,Entre_5700_e_8500,Entre_8500_e_11500,Maior_que_11500}
+@inputs
+Age Overall Potential Special InternationalReputation WeakFoot SkillMoves ContractValidUntil Crossing Finishing HeadingAccuracy ShortPassing Volleys Dribbling Curve FKAccuracy LongPassing BallControl Acceleration SprintSpeed Agility Reactions Balance ShotPower Jumping Stamina Strength LongShots Aggression Interceptions Positioning Vision Penalties Composure Marking StandingTackle SlidingTackle GKDiving GKHandling GKKicking GKPositioning GKReflexes 
+@outputs Value
+@data
+
+@decisiontree
+
+if (Overall < 78.0) then {
+	if (Overall < 76.0) then {
+		if (Overall < 75.0) then {
+			if (Overall < 74.0) then {
+				if (Potential < 84.0) then {
+					if (Potential < 83.0) then {
+						Menor_que_5700 
+					}
+					else { 
+						Menor_que_5700 
+					}
+				}
+				else { 
+					Menor_que_5700 
+				}
+			}
+			else { 
+				if (Age < 27.0) then {
+					if (Age < 26.0) then {
+						if (Potential < 86.0) then {
+							if (Potential < 85.0) then {
+								if (LongShots < 26.0) then {
+									Menor_que_5700 
+								}
+								else { 
+									Entre_5700_e_8500 
+								}
+							}
+							else { 
+								Entre_8500_e_11500 
+							}
+						}
+						else { 
+							Entre_8500_e_11500 
+						}
+					}
+					else { 
+						Menor_que_5700 
+					}
+				}
+				else { 
+					if (Age < 29.0) then {
+						if (Volleys < 64.0) then {
+							if (Volleys < 62.0) then {
+								Menor_que_5700 
+							}
+							else { 
+								Entre_5700_e_8500 
+							}
+						}
+						else { 
+							if (Age < 28.0) then {
+								Entre_5700_e_8500 
+							}
+							else { 
+								Menor_que_5700 
+							}
+						}
+					}
+					else { 
+						Menor_que_5700 
+					}
+				}
+			}
+		}
+		else { 
+			if (Age < 27.0) then {
+				if (Potential < 82.0) then {
+					if (Potential < 77.0) then {
+						if (Potential < 76.0) then {
+							Menor_que_5700 
+						}
+						else { 
+							Entre_5700_e_8500 
+						}
+					}
+					else { 
+						if (Potential < 81.0) then {
+							Entre_5700_e_8500 
+						}
+						else { 
+							Entre_8500_e_11500 
+						}
+					}
+				}
+				else { 
+					if (Finishing < 59.0) then {
+						Entre_5700_e_8500 
+					}
+					else { 
+						Entre_8500_e_11500 
+					}
+				}
+			}
+			else { 
+				if (Finishing < 61.0) then {
+					Menor_que_5700 
+				}
+				else { 
+					if (Age < 32.0) then {
+						if (Age < 31.0) then {
+							Entre_5700_e_8500 
+						}
+						else { 
+							Menor_que_5700 
+						}
+					}
+					else { 
+						Menor_que_5700 
+					}
+				}
+			}
+		}
+	}
+	else { 
+		if (Age < 29.0) then {
+			if (Potential < 84.0) then {
+				if (Finishing < 65.0) then {
+					if (Potential < 83.0) then {
+						Entre_5700_e_8500 
+					}
+					else { 
+						Entre_8500_e_11500 
+					}
+				}
+				else { 
+					if (Potential < 78.0) then {
+						if (Overall < 77.0) then {
+							Entre_5700_e_8500 
+						}
+						else { 
+							Entre_8500_e_11500 
+						}
+					}
+					else { 
+						Entre_8500_e_11500 
+					}
+				}
+			}
+			else { 
+				if (Overall < 77.0) then {
+					Entre_8500_e_11500 
+				}
+				else { 
+					Maior_que_11500 
+				}
+			}
+		}
+		else { 
+			if (Age < 34.0) then {
+				if (ShotPower < 64.0) then {
+					Menor_que_5700 
+				}
+				else { 
+					if (Age < 33.0) then {
+						if (Marking < 70.0) then {
+							if (Marking < 69.0) then {
+								Entre_5700_e_8500 
+							}
+							else { 
+								if (Overall < 77.0) then {
+									Menor_que_5700 
+								}
+								else { 
+									Entre_5700_e_8500 
+								}
+							}
+						}
+						else { 
+							if (Overall < 77.0) then {
+								if (Vision < 78.0) then {
+									Menor_que_5700 
+								}
+								else { 
+									Entre_5700_e_8500 
+								}
+							}
+							else { 
+								Entre_5700_e_8500 
+							}
+						}
+					}
+					else { 
+						Menor_que_5700 
+					}
+				}
+			}
+			else { 
+				Menor_que_5700 
+			}
+		}
+	}
+}
+else { 
+	if (Potential < 82.0) then {
+		if (Positioning < 71.0) then {
+			if (Age < 32.0) then {
+				if (Positioning < 44.0) then {
+					Entre_5700_e_8500 
+				}
+				else { 
+					if (Age < 30.0) then {
+						Entre_8500_e_11500 
+					}
+					else { 
+						Entre_8500_e_11500 
+					}
+				}
+			}
+			else { 
+				Menor_que_5700 
+			}
+		}
+		else { 
+			Maior_que_11500 
+		}
+	}
+	else { 
+		if (Overall < 86.0) then {
+			if (Overall < 81.0) then {
+				if (Penalties < 50.0) then {
+					Maior_que_11500 
+				}
+				else { 
+					Maior_que_11500 
+				}
+			}
+			else { 
+				Maior_que_11500 
+			}
+		}
+		else { 
+			Maior_que_11500 
+		}
+	}
+}
+}
+
+@TotalNumberOfNodes 47
+@NumberOfLeafs 48
+
+@NumberOfItemsetsTraining 1424
+@NumberOfCorrectlyClassifiedTraining 1274
+@PercentageOfCorrectlyClassifiedTraining 89.46629213483146%
+@NumberOfIncorrectlyClassifiedTraining 150
+@PercentageOfIncorrectlyClassifiedTraining 10.53370786516854%
+
+@NumberOfItemsetsTest 158
+@NumberOfCorrectlyClassifiedTest 137
+@PercentageOfCorrectlyClassifiedTest 86.70886075949367%
+@NumberOfIncorrectlyClassifiedTest 21
+@PercentageOfIncorrectlyClassifiedTest 13.291139240506329%
+
+@TotalElapsedTime 2.347s
+@BuildingElapsedTime 2.06s
+@ClassificationTrainElapsedTime 0.094s
+@ClassificationTestElapsedTime 0.001s
